@@ -18,7 +18,11 @@ li {
     float: right;
     margin-right: 25px
 }
-h1{
+p{
+    font-family: Barlow Condensed;
+    font-size: 30px;
+  }
+/* h1{
     color: black;
     font-family: Dangrek, Geneva, sans-serif; 
     font-size: 45px; 
@@ -27,7 +31,7 @@ h1{
     font-weight: normal; 
     line-height: 26.4px;
     letter-spacing: 10px;
-} 
+}  */
 body {
     background-color: white;
     margin: 0px;
