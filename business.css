@@ -22,7 +22,14 @@ li {
 p{
     font-family: 'Barlow Condensed', sans-serif;
     font-size: 30px;
-  }
+}
+.footer{
+    font-family: 'Dangrek', sans-serif;
+    font-size: 30px;
+    line-height: 75px;
+    text-align: center;
+    color: black;
+}
 /* h1{
     color: black;
     font-family: Dangrek, Geneva, sans-serif; 
@@ -36,6 +43,7 @@ p{
 body {
     background-color: white;
     margin: 0px;
+    padding-bottom: 110px;
 }
 a {
     color: Black;
@@ -62,4 +70,14 @@ svg {
   left: 0;
   width: 100%;
   z-index: -1;
+}
+footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(221, 183, 171, 1);
+  color: white;
+  text-align: center;
+  height: 75px;
 }
