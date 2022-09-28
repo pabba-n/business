@@ -1,24 +1,27 @@
-@media(max-width: 565px) {
-    div.header{
-        margin-top: -27px;
-        display: flex;
+@media(max-width: 1060px){
+    .text-header{
+        visibility: hidden;
     }
 }
 
-@media(max-width: 441px) {
+@media(max-width: 562px) {
+    div.header{
+        margin-top: -27px;
+    }
+}
+
+@media(max-width: 437px) {
     div.header{
         margin-top: -54px;
     }
+
 }
 
 @media(max-width: 340px) {
-    div.header{
-        margin-top: -81px;
-    }
-}
-
-@media(max-width: 265px) {
     svg{
         display: none;
+    }
+    div.header{
+        margin-top: 0px;
     }
 }
