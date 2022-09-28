@@ -16,6 +16,9 @@
     }
     li{
         float:none;
+        list-style-position: inside;
+        border: 1px solid black;
+        border-radius: 10px;
     }
     ul{
         display: block;
@@ -24,8 +27,7 @@
         display: block;
         position:fixed;
         background-color: rgba(221, 183, 171, 1);
-        /* margin-bottom: 200px; */
-        height: 100px;
+        height: 150px;
         margin: 0px;
         left: 0;
         top: 0;
