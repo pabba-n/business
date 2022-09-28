@@ -3,7 +3,10 @@ ul{
     list-style-type: none;
     margin: 10px;
     margin-right: 50px;
-    margin-top:25px;
+    margin-top: 15px;
+    position: absolute;
+    top: 0;
+    right: 0;
 }
 h1{
     color: black;
@@ -17,7 +20,7 @@ h1{
 } 
 li {
     float: right;
-    margin-right: 25px
+    margin-right: 25px;
 }
 p{
     font-family: 'Barlow Condensed', sans-serif;
@@ -34,6 +37,7 @@ body {
     background-color: white;
     margin: 0px;
     padding-bottom: 110px;
+    text-align: center;
 }
 a {
     color: Black;
@@ -53,8 +57,9 @@ a:hover{
     border-radius: 3px;  
 }
 svg {
+  display: block;
   position: relative;
-  top: -53;
+  top: 0;
   left: 0;
   width: 100%;
   z-index: -1;
@@ -69,3 +74,7 @@ footer{
   text-align: center;
   height: 75px;
 }
+
+/* ul.text-header{
+    float: right;
+} */
